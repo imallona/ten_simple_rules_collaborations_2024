@@ -13,7 +13,11 @@
 \usepackage{lipsum}
 \usepackage{fancyhdr}       % header
 \usepackage{graphicx}       % graphics
-%\usepackage{csquotes}       % quotations
+%\usepackage{csquotes}      % quotations
+\usepackage{adjustbox}      % table size
+\usepackage{array}          % tabular equal heights
+%\usepackage[thinlines]{easytable}
+%\usepackage[flushleft]{threeparttable}             % table note
 
 \graphicspath{{figures/}}     % organize your images and other figures under media/ folder
 
@@ -54,7 +58,7 @@ $^1$ Department of Molecular Life Sciences, University of Zurich, Winterthurerst
 \vspace{-0.5cm}
 
 \begin{abstract}
-Computational biologists are frequently engaged in collaborative data analysis with wet lab researchers. These interdisciplinary projects, as necessary as they are to the scientific endeavour, can be suprisingly challenging. In these Ten Simple Rules we aim to help dry lab researchers to identify sources of friction; and provide actionable tools to facilitate respectful, open, transparent and rewarding collaborations.
+Computational biologists are frequently engaged in collaborative data analysis with wet lab researchers. These interdisciplinary projects, as necessary as they are to the scientific endeavour, can be suprisingly challenging. In these Ten Simple Rules guide we aim to help dry lab researchers to identify sources of friction; and provide actionable tools to facilitate respectful, open, transparent and rewarding collaborations.
 \end{abstract}
 
 \keywords{collaboration\and interdisciplinary \and statistics \and biology \and bioinformatics}
@@ -88,12 +92,12 @@ In practice, collaborations originate between researchers who know each other al
 
 In addition, choosing collaborators can also be thought of as a process that repeats itself at natural stopping points, such as the finishing of a project (stage). It can be advantageous to evaluate at regular intervals whether all parties are getting what they had hoped out of the collaboration and re-discuss the collaboration if not.
 
-In our experience most friction arises from having different expectations that are not clearly expressed nor negotiated. To detect and smoothen possible misalignments (for this an other rules) we suggest both teams fill an expectations form (such as Table~\ref{table:expectations}), compare them, and discuss conflicting views early on. Explicit is better than implicit. 
+In our experience most friction arises from having different expectations that are not clearly expressed nor negotiated. To detect and smoothen possible misalignments (for this an other rules) we suggest both teams fill an expectations form (such as Table~\ref{form}), compare them, and discuss conflicting views early on. Explicit is better than implicit. 
 
 \begin{figure}
   \centering
   \fbox{\rule[-.5cm]{4cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
-  \caption{Sample figure caption.}
+  \caption{Typical timeline of a collaboration between experimentalists and analysts. The different steps are coarsely grouped in three phases on the timeline, but some steps are regular processes throughout the collaboration (\nameref{rule6_communication}, \nameref{rule8_trust}, \nameref{rule9_respect}, \nameref{rule10_learn}).}
   \label{fig:figure1}
 \end{figure}
 
@@ -157,7 +161,7 @@ Other short actionable items: include test and pilot experiments in your experim
 \rightskip=0cm -- Mark Twain
 \end{flushright}
 
-Define together individual tasks and responsibilities, the days or working hours allocated to that project (for communication and urgent tasks to perform), as well as time horizons (in calendar months) for these and for the collaboration more generally. This is also important to get a grasp of the complexity of tasks beyond your expertise that one might underestimate. Plan with buffer time for unforeseen complications. Explicitly check your expectations are aligned (Table~\ref{table:expectations}).
+Define together individual tasks and responsibilities, the days or working hours allocated to that project (for communication and urgent tasks to perform), as well as time horizons (in calendar months) for these and for the collaboration more generally. This is also important to get a grasp of the complexity of tasks beyond your expertise that one might underestimate. Plan with buffer time for unforeseen complications. Explicitly check your expectations are aligned (Table~\ref{form}).
 
 To ensure mutual awareness and help monitor progress, it can be useful to keep an up-to-date project plan where everyone can see what was done and what is currently being worked on by whom. If there are digressions or change of plans, discuss them with the collaborators ahead of engaging in long work. Since most people involved will also have a number of other engagements (and holidays!) with loads that vary over time, it is important to inform each other, ahead of time if possible, of the varying availability for collaboration. Regular meetings, either planned or in response to new data or emerging problems, are also critical to a smooth collaboration (see \nameref{rule6_communication}). 
 
@@ -261,11 +265,8 @@ This work has not received any specific funding.
 
 \clearpage
 
-\begin{table}
-\begin{tabular}{cc} \toprule
-this & is the expectations table and the label does not work currently!
-\label{table:expectations}
-\end{tabular}
-\end{table}
+\appendix
+
+\input{supp_collab_expectations}
 
 \end{document}

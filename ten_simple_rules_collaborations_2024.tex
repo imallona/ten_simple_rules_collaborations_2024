@@ -31,38 +31,38 @@
 
 %% the textbf workaround is not elegant
 \author{
-Mark D. Robinson$^{1,2,3}$, 
+Mark D. Robinson$^{1,2,3,4}$, 
 Peiying Cai$^{1,2,4}$,
 Martin Emons$^{1,2,4}$,
 Reto Gerber$^{1,2,4}$,\\
 \textbf{Pierre-Luc Germain$^{1,2,4}$},
 \textbf{Samuel Gunz$^{1,2,4}$}, 
 \textbf{Siyuan Luo$^{1,2,4}$},
-\textbf{Giulia Moro$^{1,2,4}$},
+\textbf{Giulia Moro$^{1,4}$},
 \textbf{Emanuel Sonder$^{1,2,4}$},\\
 \textbf{Anthony Sonrel$^{1,2,4}$},
 \textbf{Jiayi Wang$^{1,2,4}$},
 \textbf{David Wissel$^{1,2,4}$},
 \textbf{Izaskun Mallona$^{1,2,3}$}\\ 
 \\
-$^1$ Department of Molecular Life Sciences, University of Zurich, Winterthurerstrasse 190, CH-8057 Zurich, Switzerland \\
-$^2$ SIB Swiss Institute of Bioinformatics \\
-$^3$ Co-correspondence \texttt{\{mark.robinson,izaskun.mallona\}@mls.uzh.ch} \\
-$^4$ Contributed equally
+$^1$ Department of Molecular Life Sciences, University of Zurich, Winterthurerstrasse 190, CH-8057 Zurich, Switzerland;\\ $^2$ SIB Swiss Institute of Bioinformatics;\\ $^3$ Co-correspondence \texttt{\{mark.robinson,izaskun.mallona\}@mls.uzh.ch}; $^4$ Equal contribution.
 }
-
-
-
 
 \begin{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \maketitle
+
+\vspace{-0.5cm}
+
+\begin{abstract}
+Computational biologists are frequently engaged in collaborative data analysis with wet lab researchers. These interdisciplinary projects, as necessary as they are to the scientific endeavour, can be suprisingly challenging. In these Ten Simple Rules we aim to help dry lab researchers to identify sources of friction; and provide actionable tools to facilitate respectful, open, transparent and rewarding collaborations.
+\end{abstract}
 
 \keywords{collaboration\and interdisciplinary \and statistics \and biology \and bioinformatics}
 
 \section*{Introduction} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{flushright}
-\rightskip=1cm\textit{``Yeah, well, you know, that's just, like, your opinion, man.''} \\
+\rightskip=1cm\textit{``Yeah, well, you know, that's just, like, your opinion, man''} \\
 \vspace{.2em}
 \rightskip=0cm -- Jeffrey `The Dude' Lebowski
 \end{flushright}
@@ -112,7 +112,7 @@ Sensitive data (patient-related data) represent a special case as they require a
 
 Clear standards for metadata format and style are often lacking (even among some fields of computer science), which can often lead to misleading or erroneous data and ultimately to biased results. A good practice is to agree on a common and systematic way of sharing the metadata, which can both be easily accessible and modified by experimentalists, and easily parsable by analysts, and consistent enough to be integrated in an analysis workflow.  
 
-Other short actionable items and tools: Follow the FAIR guidelines (\url{https://www.go-fair.org/fair-principles/}); define file naming policies; be aware of sensitive data handling regulations \cite{shabani2019reidentifiability,party2011advice}; follow spreadsheet guidelines\cite{broman2018data}.
+Other short actionable items and tools: Follow the FAIR guidelines (\url{https://www.go-fair.org/fair-principles/}); define file naming policies; be aware of sensitive data handling regulations (in Europe) \cite{shabani2019reidentifiability,party2011advice}; follow good practices for spreadsheets\cite{broman2018data}.
 
 \section*{Rule 3: Define publication policies} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \label{rule3_publication}
@@ -129,7 +129,7 @@ For academic papers, discuss potential target and no-go journals, preprints, and
 
 Discuss author order expectations early, particularly for first author, senior and corresponding roles. Also consider co-contributions, co-correspondence, and flexibility for future updates (i.e., new people joining the team). Do not neglect the ordering within co-authors, if applicable. Be aware of possible sources of biases during this negotiation, including gender, PI’s favouritism, seniority or tradition (i.e. wet labs taking precedence over dry lab). The same considerations apply to senior and corresponding authors. 
 
-Other short actionable items: Embrace author contribution taxonomies like CRediT\cite{allen2014publishing} (\url{https://credit.niso.org/}), re-evaluate the policy in case of major change of contributions or because of new collaborators joining while the project is ongoing.
+Other short actionable items: Embrace author contribution taxonomies like CRediT \cite{allen2014publishing} (\url{https://credit.niso.org/}), re-evaluate the policy in case of major change of contributions or because of new collaborators joining while the project is ongoing.
 
 \section*{Rule 4: Jointly design the experiments} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \label{rule4_experiments}
@@ -248,12 +248,16 @@ We thank our past collaborators for their often pleasurable, sometimes painful c
 
 This manuscript was written during a lab retreat in the scenic town of Aeschi bei Spiez, Switzerland.
 
+\section*{Author contributions}
+
+I.M. conceived the project. M.D.R. and I.M. supervised it. All authors drafted, edited and reviewed the manuscript.
+
 \section*{Funding}
 
 This work has not received any specific funding.
 
 \bibliographystyle{apalike}  
-\bibliography{references}  
+\bibliography{ten_simple_rules_collaborations_2024}  
 
 \clearpage
 

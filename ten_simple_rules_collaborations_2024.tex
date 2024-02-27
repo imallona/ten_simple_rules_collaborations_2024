@@ -81,7 +81,7 @@ Despite our primary role as methodologists and that we often spend only a minori
 \begin{figure}[h]
   \centering
   %\fbox{\includegraphics[width=0.7\textwidth]{timeline.pdf}}
-  \fbox{\includegraphics[width=\linewidth]{figures/timeline_linewidth_rot.pdf}}
+  \fbox{\includegraphics[width=0.99\linewidth]{figures/timeline_linewidth_rot.pdf}}
   \caption{Typical timeline of a collaboration between experimentalists and analysts. The different steps are coarsely grouped in three phases on the timeline, but some steps are regular processes throughout the collaboration.}
   \label{fig:figure1}
 \end{figure}
@@ -116,7 +116,7 @@ In our experience, most friction arises from having different expectations that 
 
 In omics data analysis, there are typically many stages to an analysis, each one having its own type of data (e.g., raw data, filtered data, normalized data, modelling, inference, etc). How and what data is shared internally between the project members during the project should be agreed upon, i.e how are data shared between collaborators, what (intermediate) data can be shared, data formats that can be easily read by all researchers. The FAIR principles \cite{wilkinson2016fair} on data sharing offer good guidelines and can be useful later when publishing the open data of the project.
 
-Sensitive data (patient-related data) represent a special case as they require additional protection with data storage and sharing.  A data sharing agreement should be determined between the collaborators. Analysts working on these datasets are obliged to take steps in accordance with the law and the signed agreement. Normally the agreement specifies who is granted access to the data; the purpose of the data analysis; what measures need to be taken (e.g., access, logging) to ensure the privacy and integrity of the data. 
+Sensitive data (frequently patient-related personal data) represent a special case as they require additional protection with data storage and sharing.  A data sharing agreement should be determined between the collaborators. Analysts working on these datasets are obliged to take steps in accordance with the law and the signed agreement. Normally the agreement specifies who is granted access to the data; the purpose of the data analysis; what measures need to be taken (e.g., access, logging) to ensure the privacy and integrity of the data. 
 
 Clear standards for metadata format and style are often lacking (even among some fields of computer science), which can often lead to misleading or erroneous data and ultimately to biased results. A good practice is to agree on a common and systematic way of sharing the metadata, which can both be easily accessible and modified by experimentalists, and easily parsed by analysts, and consistent enough to be integrated in an analysis workflow.  
 
@@ -142,10 +142,16 @@ Actionable items: Embrace author contribution taxonomies like CRediT \cite{allen
 \section*{Rule 4: Jointly design the experiments} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \label{rule4_experiments}
 
+%\begin{flushright}
+%\rightskip=1cm\textit{``To consult the statistician after an experiment is finished is often merely to ask [$\ldots$] to conduct a post-mortem examination [$\ldots$] [and] perhaps say what the experiment died of''} \\
+%\vspace{.2em}
+%\rightskip=0cm -- Ronald A. Fisher
+%\end{flushright}
+
 \begin{flushright}
-\rightskip=1cm\textit{``To consult the statistician after an experiment is finished is often merely to ask [$\ldots$] to conduct a post-mortem examination [$\ldots$] [and] perhaps say what the experiment died of''} \\
+\rightskip=1cm\textit{``No one believes an hypothesis except its originator but everyone believes an experiment except the~experimenter''} \\
 \vspace{.2em}
-\rightskip=0cm -- Ronald A. Fisher
+\rightskip=0cm -- William Ian Beardmore Beveridge
 \end{flushright}
 
 Under experimental design, we are referring to the process of defining the general workflow to reach a certain outcome such as testing a hypothesis, answering a biological question or demonstrating a new experimental assay. This encompasses primarily the wet lab experiments but can also include data analysis. Ideally, the project members would define the core aspects of the experimental design prior to collecting data. As a first step, the goal of the research project should be clearly formulated and agreed upon. Both teams should then be involved in the definition of all steps of the experimental design. This may happen at different levels depending on their area of expertise, but all members should have a basic knowledge on all steps of the workflow, including wet lab and dry lab. After defining the experimental design, you should agree with your collaborators on a rough analysis plan. After defining the main steps of the experimental design and analysis plan, a rough timeline should also be generated (see also \nameref{rule5_time}). Finally, the minimal desired outcome (such as initial data analysis, final figures, etc) should also be defined. 
@@ -216,7 +222,7 @@ Actionable items: share all raw and processed data; listen to and acknowledge di
 \label{rule9_respect}
 
 \begin{flushright}
-\rightskip=1cm\textit{``By mutual confidence and mutual aid – great deeds are done, and great discoveries made''} \\
+\rightskip=1cm\textit{``By mutual confidence and mutual aid great deeds are done, and great discoveries made''} \\
 \vspace{.2em}
 \rightskip=0cm -- Homer
 \end{flushright}

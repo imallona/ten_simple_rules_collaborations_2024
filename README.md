@@ -1,6 +1,12 @@
-# Paper
+# Preprint
 
-From Mark D. Robinson lab, University of Zurich, 2024.
+Ten simple rules for collaborating with wet lab researchers for computational researchers
+
+Mark D. Robinson, Peiying Cai, Martin Emons, Reto Gerber, Pierre-Luc Germain, Samuel Gunz, Siyuan Luo, Giulia Moro, Emanuel Sonder, Anthony Sonrel, Jiayi Wang, David Wissel, Izaskun Mallona
+
+Computational biologists are frequently engaged in collaborative data analysis with wet lab researchers. These interdisciplinary projects, as necessary as they are to the scientific endeavour, can be surprisingly challenging due to cultural differences in operations and values. In these Ten Simple Rules guide we aim to help dry lab researchers identify sources of friction; and provide actionable tools to facilitate respectful, open, transparent and rewarding collaborations.
+
+[https://doi.org/10.48550/arxiv.2402.18348](https://doi.org/10.48550/arxiv.2402.18348)
 
 # LaTeX template
 
